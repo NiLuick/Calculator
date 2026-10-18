@@ -71,13 +71,8 @@
 
         <!-- Display -->
         <Viewbox Height="130" HorizontalAlignment="Right" StretchDirection="DownOnly" Margin="10,0,10,0">
-            <TextBlock x:Name="Display"
-                       Text="0"
-                       FontSize="80"
-                       FontWeight="Light"
-                       FontFamily="Segoe UI Light"
-                       Foreground="White"
-                       VerticalAlignment="Bottom"/>
+            <TextBlock x:Name="Display" Text="{Binding OutputField}" FontSize="80" FontWeight="Light" FontFamily="Segoe UI Light"
+                       Foreground="White" VerticalAlignment="Bottom"/>
         </Viewbox>
 
         <!-- Keypad -->
